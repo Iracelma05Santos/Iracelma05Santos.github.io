@@ -1,0 +1,98 @@
+body{
+    background-image: url(file:///C:/Users/USER/Desktop/space/img/Ip-qLcxs5O8eetQeSGwxvg-wide.png);
+}
+
+.scale{
+    float: left;
+}
+
+.arrow{
+    width: 70px;
+    height: 70px;
+    margin-left: -240px;
+    float: left;
+    transform: rotate(180deg);
+    padding-top: 640px;
+    opacity: .5;
+}.arrow:hover{
+    opacity: 1;
+}
+
+.arrow2{
+    width: 70px;
+    height: 70px;
+    margin-left: 0px;
+    margin-right: 20px;
+    margin-bottom: 620px;
+    float: right;
+    opacity: .5;
+}.arrow2:hover{
+    opacity: 1;
+}
+
+.links{
+    display: inline-grid
+}
+
+.fir{
+    margin-top: 50px;
+    margin-bottom: 40px;
+    height: 50px;
+    margin-left: -150px;
+    opacity: 0;
+}
+
+.photo:hover::after {
+    content: attr(data-title); /* Выводим текст */
+    position: absolute; /* Абсолютное позиционирование */
+    left: 30%; top: 10%; right: 30%; /* Положение подсказки */
+    z-index: 1; /* Отображаем подсказку поверх других элементов */
+    background: rgba(7, 26, 61, 0.1); /* Полупрозрачный цвет фона */
+    font-family: Arial, sans-serif; /* Гарнитура шрифта */
+    color: azure;
+    font-size: 17px; /* Размер текста подсказки */
+    padding: 5px 10px; /* Поля */
+    /*border: 1px solid #000000;  Параметры рамки */
+}.photo2:hover::after {
+    content: attr(data-title); 
+    position: absolute; 
+    left: 30%; top: 30%; right: 30%; 
+    z-index: 1; 
+    background: rgba(7, 26, 61, 0.1); 
+    font-family: Arial, sans-serif; 
+    color: azure;
+    font-size: 17px;
+    padding: 5px 10px; 
+
+}.photo3:hover::after {
+    content: attr(data-title); 
+    position: absolute; 
+    left: 30%; top: 50%; right: 30%; 
+    z-index: 1; 
+    background: rgba(7, 26, 61, 0.1); 
+    font-family: Arial, sans-serif; 
+    color: azure;
+    font-size: 17px; 
+    padding: 5px 10px; 
+    
+}.photo4:hover::after {
+    content: attr(data-title); 
+    position: absolute; 
+    left: 30%; top: 70%; right: 30%; 
+    z-index: 1; 
+    background: rgba(7, 26, 61, 0.1); 
+    font-family: Arial, sans-serif; 
+    color: azure;
+    font-size: 17px; 
+    padding: 5px 10px; 
+}.photo5:hover::after {
+    content: attr(data-title); 
+    position: absolute; 
+    left: 30%; top: 90%; right: 30%; 
+    z-index: 1; 
+    background: rgba(7, 26, 61, 0.1); 
+    font-family: Arial, sans-serif; 
+    color: azure;
+    font-size: 17px;
+    padding: 5px 10px;   
+}

@@ -1,0 +1,107 @@
+body{
+    background-color: #000000;
+}
+
+header{
+    margin: 0,0,0,0;
+    padding: 0,0,0,0;
+}
+
+.logo{
+    margin-left: -120px;
+    width: 1000px;
+    height: 115px;
+    padding-bottom: 35px;
+}
+
+.bang{
+    width: 340px;
+    height: 85px;
+    margin-left: -100px;
+    padding-bottom: 45px;
+}
+.start{
+    width: 130px;
+    height: 110px;
+    margin-left: 55px;
+    padding-top: 0px;
+    padding-bottom: 40px;
+}
+
+.ima{
+    margin-top: -40px;
+    margin-left: 0px;
+    width: 1340px;
+    height: 800px;
+}
+
+
+footer{
+    padding-top: -45px;
+}
+.foot{
+    margin-top: -60px;
+    margin-left: 600px;
+}
+.wiki{
+    width: 110px;
+    height: 120px;
+    padding-bottom: -70px;
+}
+
+
+.wiki:hover{
+   
+    transform: rotate(-360deg);
+    transition: 0.3s ease-out;
+}
+
+.khan{
+    width: 275px;
+    height: 85px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 15px;
+}
+
+.khan:hover{
+   
+    transform: rotate(15deg);
+    transition: 0.5s ease-out;
+}
+.cosmos{
+    width: 170px;
+    height: 50px;
+    padding-bottom: 30px;
+}
+
+.cosmos:hover{
+   
+    transform: rotate(15deg);
+    transition: 0.7s ease-out;
+}
+
+hr{
+    border: none; 
+    background-color: rgb(97, 97, 97);
+    height: 1px; /* Толщина линии */
+    margin-right: 45px;
+    margin-left: 5px;
+}
+
+p{
+    margin: 10px;
+}
+.keys{
+    color: aliceblue;
+    font-style: italic;
+    font-size: 40px
+}
+
+.keys:hover{
+    color: rgb(230, 80, 80);
+    font-style: italic;
+    font-size: 40px;
+    transition: 0.7s ease-out;
+
+}
